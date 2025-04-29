@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin:0;
+}
+
+header {
+
+}
+
+#logo {
+    width:100px;
+}
+
+#primary-nav ul{
+    display: flex;
+    
+    gap:1rem;
+    list-style-type: none;
+}
+
+#primary-nav li {
+    
+}
+
+
+@media screen and (width>1000px) {
+    
+    header,main,footer {
+        max-width: 1000px;
+        margin-inline:auto;
+    }
+
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    }
+}
